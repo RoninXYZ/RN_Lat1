@@ -10,7 +10,7 @@ const Home1 = () => {
   function addTogether() {
     const newTotal = number1 + number2;
     setTotal(newTotal);
-    Alert.alert('Alert', 'Tulos: ' + newTotal); // total has the old value in the render
+    Alert.alert('Alert', 'Jumlah dua bilangan: ' + newTotal); // total has the old value in the render
 }
 
 
